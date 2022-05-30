@@ -1,0 +1,35 @@
+
+body{
+    background-color: rgb(13, 2, 51);
+    color: white;
+}
+.vote{
+    background-color: rgb(189, 150, 88);
+    width: 30px;
+    height: 40px;
+    top: 0;
+    right: 10px;
+    color: white;
+    text-align: center;
+}
+
+.layer{
+    background-color: rgba(196, 190, 190,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.layerImg{
+    background-image: url(../imgs/portfolio-1.jpg);
+    background-position: center center ;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
